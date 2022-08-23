@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My JS Practice</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>This text is in H1 library header tag</h1>
+    <p id="changeableParaID">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore hic nulla autem officiis, vel, fugit quod eos harum, officia ad quis sunt ratione sed cupiditate laborum culpa et maxime asperiores.</p>
+
+    <h1 id="view-or-hide" style="display: none;">Md. Nure Alom 192-15-2791</h1>
+
+    <button onClick="document.getElementById('changeableParaID').innerHTML = 'Hello'">Change Text</button>
+
+    <button onClick=changeBgColor()>Change Backgroud Color of Paragraph</button>
+
+    <button id="viewBtnId" onClick=visibleHidden()>View</button>
+
+    <!-- <script>
+        window.alert('Test');
+    </script> -->
+    <div id="lightOnOff" style="display: flex;">
+        <button id="lightOnBtnID" onclick=lightOnBtnFun()>Turn on the light</button>
+        <img id="lightOffPic" style="display: block;" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="picture of light bulb off state">
+
+        <img id="lightOnPic" style="display: block;" src="https://www.w3schools.com/js/pic_bulbon.gif" alt="picture of light bulb on state">
+
+        <button id="lightOffBtnID" onclick=lightOffBtnFun()>Turn off the light</button>
+    </div>
+
+</body>
+</html>
